@@ -1,0 +1,19 @@
+.grid_container {
+    border: 10px solid red;
+    background-color: pink;
+}
+
+.grid_item {
+    border: 3px solid red;
+    background-color: pink;
+}
+
+.flex_container {
+    border: 10px solid red;
+    background-color: pink;
+}
+
+.flex {
+    border: 3px solid red;
+    background-color: pink;
+}

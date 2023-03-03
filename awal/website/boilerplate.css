@@ -1,0 +1,105 @@
+.logo {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.burger {
+    width: 20px;
+    height: 22px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+}
+
+span {
+    height: 1px;
+    width: 20px;
+    background-color: #000;
+}
+
+.logo_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    letter-spacing: -3px;
+    font-weight: bold;
+}
+
+.search_bar {
+    width: 35.18%;  
+    display: flex; 
+
+}
+
+.search {
+    padding: 7px 150px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px ;
+    border: 1px solid rgb(149, 149, 149);
+    text-align: left;
+}
+
+.button {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid rgb(149, 149, 149);
+    background-color:rgb(247, 246, 246);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(182, 182, 182, 0.2);
+}
+
+.submit_btn {
+    width: 55px;
+}
+
+.micro {
+    margin-left: 18px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.mikrofon {
+    width:35px;
+    cursor: pointer;
+}
+
+
+.noti_icons {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.name_circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(8, 172, 136);
+}
+
+.name_circle h3 {
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 11px;
+}
+
+.video {
+    cursor: pointer;
+}

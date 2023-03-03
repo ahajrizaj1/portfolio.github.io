@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.grid {
+    display: grid;
+}
+
+.center {
+    place-items: center;
+}
+
+.height {
+    height: 100vh;
+}
+
+.medium {
+    font-size: 2rem;
+}
+
+.gap {
+    grid-gap: 1rem;
+}
+
+.border {
+    border: 1px solid gray;
+}
+
+.gap {
+    grid-gap: .5rem;
+}
+
+.area {
+    grid-template-areas: 
+    "h h h h  h h h h  h h h h"
+    "s s l l  l l l l  l l l l"
+    "s s m m  m m m m  m m m m"
+    "s s m m  m m m m  m m m m"
+
+    "s s m m  m m m m  m m m m"
+    "s s m m  m m m m  m m m m"
+    "s s m m  m m m m  m m m m"
+    "s s m m  m m m m  m m m m"    
+
+    "s s m m  m m m m  m m m m"
+    "s s m m  m m m m  m m m m"
+    "s s m m  m m m m  m m m m"
+    "s s m m  m m m m  m m m m";
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    grid-area: h;
+    height: 7vh;
+    border-bottom: 1px solid lightgray;
+}
+
+.sidebar {
+    grid-area: s;
+}
+
+.navlinks {
+    grid-area: l;
+}
+
+.main {
+    grid-area: m;
+}

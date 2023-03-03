@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid {
+    display: grid;
+}
+
+.center {
+    place-items: center;
+}
+
+.border {
+    border: 0.1rem solid red;
+}
+
+.medium {
+    font-size: 2rem;
+}
+
+.height {
+    height: 100vh;
+}
+
+.gap {
+    grid-gap: 1rem;
+}
+
+.area {
+    grid-template-areas: 
+    "a a a a  a a a a  a a a a"
+    "a a a a  a a a a  a a a a"
+    "b b b b  b b b b  b b b b"
+    "b b b b  b b b b  b b b b"
+
+    "b b b b  b b b b  b b b b"
+    "b b b b  b b b b  b b b b"
+    "b b b b  b b b b  b b b b"
+    "b b b b  b b b b  b b b b"
+
+    "c c c c  c c d d  d d d d"
+    "c c c c  c c d d  d d d d"
+    "e e e e  e e e e  e e e e"
+    "e e e e  e e e e  e e e e";
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+
+
+
+@media screen and (min-width:1400px){
+    .area {
+        grid-template-areas: 
+        "a a a a  a a a a  a a a a"
+        "a a a a  a a a a  a a a a"
+        "a a a a  a a a a  a a a a"
+        "a a a a  a a a a  a a a a"
+
+        "b b b b  b b b b  e e e e"
+        "b b b b  b b b b  e e e e"
+        "b b b b  b b b b  e e e e"
+        "b b b b  b b b b  e e e e"
+        
+        "b b b b  b b b b  e e e e"
+        "c c c c  d d d d  e e e e"
+        "c c c c  d d d d  e e e e"
+        "c c c c  d d d d  e e e e";
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+

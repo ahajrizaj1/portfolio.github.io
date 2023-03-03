@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+}
+
+.center{
+    place-items: center;
+}
+
+.gap {
+    grid-gap: 1rem;
+}
+
+.height {
+    height: 100vh;
+}
+
+.border {
+    border: .1rem solid black;
+}
+
+
+.medium {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bgc-clr {
+    background-color: rgb(197, 197, 197);
+}
+
+
+.area {
+    grid-template-areas: 
+    "a a a a  a a a a  a a a a"
+    "a a a a  a a a a  a a a a"
+    "a a a a  a a a a  a a a a"
+    "a a a a  a a a a  a a a a"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "b b c c  c c c c  c c c c"
+    "d d d d  e e e e  f f f f"
+
+    "g g g g  g g g g  g g g g"
+    "g g g g  g g g g  g g g g"
+    "g g g g  g g g g  g g g g"
+    "g g g g  g g g g  g g g g"
+    "g g g g  g g g g  g g g g"
+    "h h h h  h h h h  h h h h";
+
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+
+.f {
+    grid-area: f;
+}
+
+.g {
+    grid-area: g;
+}
+
+.h {
+    grid-area: h;
+}
+
+
+@media screen and (max-width: 800px){
+    .area {
+        grid-template-areas: 
+        "a a a a  a a a a  a a a a"
+        "a a a a  a a a a  a a a a"
+        "b b b b  b b b b  b b b b"
+        "c c c c  c c c c  c c c c"
+
+        "c c c c  c c c c  c c c c"
+        "c c c c  c c c c  c c c c"
+        "c c c c  c c c c  c c c c"
+        "d d d d  e e e e  f f f f"
+    
+        "g g g g  g g g g  g g g g"
+        "g g g g  g g g g  g g g g"
+        "g g g g  g g g g  g g g g"
+        "h h h h  h h h h  h h h h";
+    
+    }
+    
+}
